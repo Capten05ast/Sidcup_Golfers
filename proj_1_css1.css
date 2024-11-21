@@ -11,9 +11,21 @@
     color:#95C11E;    
 }
 
+@media (max-width: 768px) {
+    video {
+        width: 100%; /* Scale video for smaller screens */
+    }
+}
+
 html, body {
     height: 100%;
     width: 100%; 
+}
+
+.container {
+    margin: 0 auto; /* Center content */
+    max-width: 100%;
+    overflow: hidden;
 }
 
 /* body::-webkit-scrollbar{
